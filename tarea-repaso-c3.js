@@ -33,7 +33,7 @@ if (edadUsuario === 26){
     console.log('Ey, yo también tengo 26!')
 } else if (edadUsuario > 26){
     console.log('Sos más viejo que yo. ')
-} else if (edadUsuario === 0){
+} else if (edadUsuario ==! Number){
     console.log('No ingresó ningún valor. ')
 } else if (edadUsuario < 26){
     console.log('Sos más joven que yo. ')
