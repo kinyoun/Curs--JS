@@ -5,6 +5,32 @@
         <title>Repaso</title>
     </head>
     <body>
-        <script src="tarea-repaso-c4.js"></script>
+        <h1>Bienvenido!</h1>
+        <h2>Vamos a calcular tu salario mensual!</h2>
+        <div>
+            <form id="formulario-usuario">
+                <label>Nombre</label>
+                <input type="text" id="nombre-usuario"/>
+                <label>Segundo nombre</label>
+                <input type="text" id="segundo-nombre-usuario"/>
+                <label>Apellido</label>
+                <input type="text" id="apellido-usuario"/>
+                <label>Edad</label>
+                <input type="number" id="edad-usuario"/>
+                <button id="boton-enviar">Enviar</button>
+            </form>
+        </div>
+        <br>
+        <p type=text id="parrafo-bienvenida"></p>
+        <br>
+        <div>
+            <form>
+                <input type=text placeholder="Ingrese su salario anual" id="salario-anual"/>
+                <button id="boton-calcular-salario-mensual">Calcular</button>
+                <input type="text"  placeholder="Salario mensual" disabled id="salario-mensual"/>
+            </form>
+        </div>
+
+        <script src="tarea-repaso-c5.js"></script>
     </body>
 </html>
