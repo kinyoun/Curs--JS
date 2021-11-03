@@ -1,6 +1,6 @@
-const $botonNumeroClases=document.querySelector('#boton-clases');
+const $botonCrearClases=document.querySelector('#boton-clases');
 
-$botonNumeroClases.onclick = function crearInput(){
+$botonCrearClases.onclick = function crearInputs(){
     const $numeroClases = Number(document.querySelector('#numero-clases').value);
     for (i=1; i<= $numeroClases; i++){
         const $nuevoLabel = document.createElement('label');
