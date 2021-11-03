@@ -21,19 +21,19 @@ function calcularPromedio(){
 }
 calcularPromedio();
 
-function calcularElMenor(){
+function calcularMenor(){
     menorNumero = Math.min(...bellezaGatoArray);
     return document.querySelector('#menor').textContent = menorNumero;
 }
-calcularElMenor();
+calcularMenor();
 
-function calcularElMayor(){
+function calcularMayor(){
     mayorNumero = Math.max(...bellezaGatoArray);    
     return document.querySelector('#mayor').textContent = mayorNumero;
 }
-calcularElMayor();
+calcularMayor();
 
-function calcularElMasFrecuente(){
+function calcularMasFrecuente(){
     let maximaFrecuencia = 1;
     let frecuencia =  0;
     let numeroMasRepetido;
@@ -51,7 +51,7 @@ function calcularElMasFrecuente(){
     }
     document.querySelector('#mas-frecuente').textContent = numeroMasRepetido;
 }
-calcularElMasFrecuente();
+calcularMasFrecuente();
 
 function mostrarResultado () {
     document.querySelector('#parrafo-promedio').className = '';
