@@ -1,3 +1,4 @@
+
 document.querySelector('#enviar-numero-familiares').onclick = function(){
     const $numeroFamiliares = document.querySelector('#numero-familiares');
     const numeroFamiliares = Number($numeroFamiliares.value);
