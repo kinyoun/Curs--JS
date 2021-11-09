@@ -274,4 +274,3 @@ function reiniciarSalarioAnual(){
         $salarioAnualIntegrantes[i].remove();
     }
 }
-
